@@ -3,10 +3,10 @@ import React, { useState, useMemo } from "react";
 export const Compo4 = () => {
   console.log("render");
   const name = "do";
-  const sayHi = () => {
+  const sayHi = useMemo(() => {
     console.log("sayHi is executed and rerender");
     alert("Hi you " + name);
-  };
+  }, [name]);
   return (
     <div
       style={{
@@ -15,9 +15,9 @@ export const Compo4 = () => {
       }}
     >
       <span style={{ fontWeight: "bold" }}>Compo4:</span> <p>Child2</p>
-      {sayHi()}
+      {sayHi}
       {name}
     </div>
   );
 };
-export default React.memo(Compo4);
+export default Compo4;
