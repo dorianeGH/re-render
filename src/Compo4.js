@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from "react";
+import Compo5 from "./Compo5";
 
 export const Compo4 = () => {
   console.log("render");
@@ -17,6 +18,7 @@ export const Compo4 = () => {
       <span style={{ fontWeight: "bold" }}>Compo4:</span> <p>Child2</p>
       {sayHi}
       {name}
+      <Compo5 />
     </div>
   );
 };
