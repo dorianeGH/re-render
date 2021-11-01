@@ -10,7 +10,7 @@ function App() {
     setCount(count + 1);
   };
   return (
-    <div style={{ backgroundColor: "blue", paddingLeft: 10 }}>
+    <div style={{ backgroundColor: "#FFADAD", paddingLeft: 10 }}>
       <p style={{ color: "white" }}>App' state</p>
       <button onClick={handleClick}>increment</button>
       <Compo1 />

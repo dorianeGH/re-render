@@ -13,10 +13,10 @@ export const Compo1 = () => {
     <div
       style={{
         paddingLeft: 20,
-        backgroundColor: "pink",
+        backgroundColor: "#FFD6A5",
       }}
     >
-      <span style={{ fontWeight: "bold" }}>Compo1:</span>{" "}
+      <span style={{ fontWeight: "bold" }}>Compo2:</span> <p>GrandMa</p>
       <button onClick={handleClick}>decrement</button>
       <div style={{ display: "flex", flexDirection: "row" }}>
         <Compo2 />

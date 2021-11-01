@@ -10,11 +10,12 @@ export const Compo4 = () => {
   return (
     <div
       style={{
-        backgroundColor: "yellow",
+        backgroundColor: "#9BF6FF",
         paddingLeft: 30,
       }}
     >
-      <span style={{ fontWeight: "bold" }}>Compo4:</span> {sayHi()}
+      <span style={{ fontWeight: "bold" }}>Compo4:</span> <p>Child2</p>
+      {sayHi()}
       {name}
     </div>
   );

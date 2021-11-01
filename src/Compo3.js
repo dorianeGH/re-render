@@ -7,11 +7,9 @@ export const Compo3 = ({ color }) => {
     setCount(count + 1);
   };
   return (
-    <div style={{ backgroundColor: "orange", paddingLeft: 30 }}>
+    <div style={{ backgroundColor: "#CAFFBF", paddingLeft: 30 }}>
       <span style={{ fontWeight: "bold" }}>Compo3:</span>
-      <p>
-        GrandChild1 likes the color {color} and count {count}
-      </p>
+      <p>GrandChild1</p>
       <button onClick={handleClick}>increment</button>{" "}
     </div>
   );

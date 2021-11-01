@@ -10,11 +10,8 @@ export const Compo2 = ({ meal1 }) => {
     setCount(count + 1);
   };
   return (
-    <div style={{ backgroundColor: "red", paddingLeft: 30 }}>
-      <span style={{ fontWeight: "bold" }}>Compo2:</span>{" "}
-      <p>
-        Child1 received {meal1} and add {count} {dessert}
-      </p>
+    <div style={{ backgroundColor: "#FDFFB6", paddingLeft: 30 }}>
+      <span style={{ fontWeight: "bold" }}>Compo2:</span> <p>Child1</p>
       <button onClick={handleClick}>increment</button>
       <Compo3 color={"yellow"} />
     </div>
