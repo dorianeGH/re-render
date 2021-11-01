@@ -19,4 +19,4 @@ export const Compo4 = () => {
     </div>
   );
 };
-export default Compo4;
+export default React.memo(Compo4);
